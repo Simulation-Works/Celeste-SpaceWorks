@@ -1,3 +1,4 @@
+# components.py
 """Typed spacecraft parts with traceable data, plus a small illustrative catalog.
 
 Optional fields default to ``None``, meaning *unknown*. Unknowns are surfaced by
