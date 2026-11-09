@@ -1,3 +1,4 @@
+# vehicle.py
 """Spacecraft assembly model, intentionally independent of the UI framework."""
 
 from dataclasses import dataclass, field

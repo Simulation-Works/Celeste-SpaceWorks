@@ -1,3 +1,4 @@
+# mass_properties.py
 """Vehicle mass, centre of mass, and inertia from component data."""
 
 from dataclasses import dataclass, field

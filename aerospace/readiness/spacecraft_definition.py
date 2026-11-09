@@ -1,10 +1,11 @@
+# spacecraft_definition.py
 from engineering.readiness.report import DefinitionReport
 from engineering.readiness.provenance import check_provenance
 
-from spacecraft.components import Engine, FuelTank
-from spacecraft.mass_properties import mass_properties
-
-from .engine_rules import check_engine
+from .landing_gear_rules import check_landing_gear
+from .attitude_rules import check_attitude_limits
+from .mass_property_rules import check_mass_properties
+from .component_rules import check_components
 
 
 def assess_spacecraft_definition(spacecraft):
