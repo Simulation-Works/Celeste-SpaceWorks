@@ -3,7 +3,7 @@
 from spacecraft.components import Engine
 
 from .engine_rules import check_engine
-
+from engineering.readiness.provenance import check_provenance
 
 def check_components(report, spacecraft):
 
